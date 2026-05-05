@@ -1,0 +1,23 @@
+{
+  "project": "checkout-service",
+  "transaction": "POST /checkout",
+  "traceId": "8df4f5e7c17a40f2b2d2b87c5e8a4f0a",
+  "spans": [
+    {
+      "op": "risk-engine",
+      "description": "risk engine decision",
+      "durationMs": 903
+    },
+    {
+      "op": "inventory",
+      "description": "reserve inventory",
+      "durationMs": 119
+    },
+    {
+      "op": "payment-gateway",
+      "description": "payment authorization",
+      "durationMs": 201
+    }
+  ],
+  "note": "risk-engine span dominates request time"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "checkouty",
+  "version": "1.0.0",
+  "description": "Demo checkout service with a config latency regression scenario",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node src/smoke-test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/worksonmym-lang/checkouty.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/worksonmym-lang/checkouty/issues"
+  },
+  "homepage": "https://github.com/worksonmym-lang/checkouty#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}

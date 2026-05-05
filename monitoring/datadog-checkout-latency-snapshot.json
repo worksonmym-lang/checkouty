@@ -1,0 +1,8 @@
+{
+  "service": "checkout-service",
+  "metric": "checkout.latency.p95",
+  "window": "2026-05-05T14:00:00Z/2026-05-05T17:00:00Z",
+  "baselineMs": 280,
+  "currentMs": 1240,
+  "annotation": "increase aligns with deployment containing PR-184"
+}
